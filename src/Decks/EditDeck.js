@@ -1,5 +1,5 @@
-import React, { Fragment, useState, useEffect } from "react";
-import {BrowserRouter as Router, Link, useHistory, useParams} from "react-router-dom"
+import React, {useState, useEffect } from "react";
+import {Link, useHistory, useParams} from "react-router-dom"
 import {updateDeck, readDeck} from "../utils/api"
 
 function EditDeck({ buildDeckList }){

@@ -10,8 +10,8 @@ import AddCard from "../Cards/AddCard";
 import EditCard from "../Cards/EditCard"
 
 
-import { listDecks, deleteCard, deleteDeck } from "../utils/api";
-import {BrowserRouter as Router, Route, Link, Switch, useHistory, useLocation, useRouteMatch, useParams} from "react-router-dom"
+import { listDecks } from "../utils/api";
+import {Route, Switch,} from "react-router-dom"
 
 
 

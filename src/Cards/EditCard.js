@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {BrowserRouter as Router, Link, useHistory, useParams} from "react-router-dom"
+import {Link, useHistory, useParams} from "react-router-dom"
 import CardForm from "../Forms/CardForm";
 import {readCard, readDeck, updateCard} from "../utils/api"
 
@@ -25,7 +25,7 @@ function EditCard(){
                         setFormData(res)
                     })
             })    
-    },[])
+    },[cardId, deckId])
 
 
     function handleInputChange(event){

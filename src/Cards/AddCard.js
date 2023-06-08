@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  BrowserRouter as Router,
+import { 
   Link,
   useHistory,
   useParams,
@@ -25,7 +24,7 @@ function AddCard() {
     readDeck(deckId).then((res) => {
       setDeck(res);
     });
-  }, []);
+  }, [deckId]);
 
   function handleCardSubmit(event) {
     event.preventDefault()

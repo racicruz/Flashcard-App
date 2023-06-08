@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {BrowserRouter as Router, Link, useHistory, useParams} from "react-router-dom"
+import {Link, useHistory, useParams} from "react-router-dom"
 import { deleteDeck, deleteCard, readDeck } from "../utils/api";
 
 function ViewDeck({buildDeckList}){

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Deck from './Deck';
-import {BrowserRouter as Router, Link } from "react-router-dom"
+import {Link} from "react-router-dom"
 
 
 function DeckList({deckList, buildDeckList}) {

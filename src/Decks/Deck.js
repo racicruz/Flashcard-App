@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Link, useHistory} from "react-router-dom"
+import {Link, useHistory} from "react-router-dom"
 import {deleteDeck} from "../utils/api"
 
 
